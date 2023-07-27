@@ -1,5 +1,6 @@
 package ru.skypro.unittesting;
 
+
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -11,7 +12,6 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
 
 public class GreetingsServiceTest {
     private final GreetingsService greetingsService = new GreetingsService();
